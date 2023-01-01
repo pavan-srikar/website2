@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata&family=Orbitron:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.537);
+}
+
+.logo{
+    height: 60px;   
+}
+
+
+.navbar{
+    height:15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo-text{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 37px;
+    font-weight: 500;
+    color: aliceblue;    
+}
+
+
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+    margin-left: 100px;
+    margin-top: 14px;
+} 
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    border: 3px solid transparent;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(240, 248, 255)
+
+}
+
+nav ul li :hover{
+    transition: all 3ms;
+    color: aqua; 
+
+
+    border: 3px solid;
+    box-sizing: border-box;
+    border-color: rgb(0, 254, 254);
+}

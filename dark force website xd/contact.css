@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata&family=Orbitron:wght@800&display=swap&family=Outfit:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(images/background3.jpg);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.container{
+    float: right;
+    height: 100vh;
+    width: 100%;    
+}
+
+.blur{
+    backdrop-filter: blur(15px);
+    background: rgba(81, 92, 206, 0.356);
+    
+    height: auto;
+    height: 100%;
+    background-size: cover;
+}
+
+h1{
+    padding: 10px 10px 0px 20px;
+    font-family: Inconsolata;
+    color: azure;
+    font-size: 50px;
+}
+h2{
+    padding: 10px 10px 0px 20px;
+    font-family: Inconsolata;
+    color: azure;
+    font-size: 30px;
+
+}
+p{
+    padding: 0px 50px 0px 20px;
+    font-family: Inconsolata;
+    color: azure;
+    font-size: 17px;
+
+}
+h3{
+    padding: 0px 10px 0px 20px;
+    font-family: Inconsolata;
+    color: azure;
+    font-size: 23px;
+}
+
+.contact-btns{
+
+    display: flex;
+    font-size: 40px;
+}
+
+.mail{
+    margin: 40px 10px 50px 170px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    border-radius: 10px;
+}
+
+.mail-button{
+    text-decoration: none;
+    display: inline-flex;
+    color: EA4335;
+}
+
+.mail h2{
+    padding: 5px 10px;
+    font-family: Inconsolata;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.telegram{
+    margin: 40px 10px 50px 80px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    border-radius: 10px;
+}
+
+.telegram-button{
+    text-decoration: none;
+    display: flex;
+    color: rgb(67, 124, 216);
+}
+
+.telegram h2{
+    padding: 5px 10px;
+    font-family: Inconsolata;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
